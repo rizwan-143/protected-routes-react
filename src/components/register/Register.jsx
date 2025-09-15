@@ -47,22 +47,22 @@ function Register(){
              action="" 
             className="w-full h-screen  p-3 bg-gray-100
              flex flex-col justify-center gap-5">
-                <div className="col flex flex-col gap-2 items-start justify-center">
+                <div className="col flex flex-col gap-2 items-start justify-center uppercase">
                     <label htmlFor="">name</label>
                     <input  className="border border-gray-300 bg-gray-100 w-full p-2 rounded-full"
                     type="text" placeholder="name" name="registername" id="" />
                 </div>
-                <div className="col flex flex-col gap-2 items-start justify-center">
+                <div className="col flex flex-col gap-2 items-start justify-center uppercase">
                     <label htmlFor="">email</label>
                     <input  className="border border-gray-300 bg-gray-100 w-full p-2 rounded-full"
                     type="email" placeholder="email" name="registeremail" id="" />
                 </div>
-                <div className="col flex flex-col gap-2 items-start justify-center">
+                <div className="col flex flex-col gap-2 items-start justify-center uppercase">
                     <label htmlFor="">password</label>
                     <input  className="border border-gray-300 bg-gray-100 w-full p-2 rounded-full"
                     type="password" placeholder="password" name="registerpassword" id="" />
                 </div>
-                <div className="col flex  gap-2 items-center justify-start">
+                <div className="col flex  gap-2 items-center justify-start uppercase">
                 <button className="bg-green-400 px-4 py-1 rounded-full text-white uppercase" >register</button>
                 <NavLink to ="/login" className={'text-blue-600 underline'} >have account ?</NavLink>
                 </div>

@@ -19,17 +19,17 @@ function Login(){
              action="" 
             className="w-full h-screen border border-gray-400 p-3 bg-gray-100
              flex flex-col justify-center gap-5">
-                <div className="col flex flex-col gap-2 items-start justify-center">
+                <div className="col flex flex-col gap-2 items-start justify-center uppercase">
                     <label htmlFor="">Email</label>
                     <input  className="border border-gray-300 bg-gray-100 w-full p-2 rounded-full"
                     type="email" placeholder="Email" name="loginemail" id="" />
                 </div>
-                <div className="col flex flex-col gap-2 items-start justify-center">
+                <div className="col flex flex-col gap-2 items-start justify-center uppercase">
                     <label htmlFor="">Password</label>
                     <input  className="border border-gray-300 bg-gray-100 w-full p-2 rounded-full"
                     type="password" placeholder="Password" name="loginpassword" id="" />
                 </div>
-                <div className="flex  gap-2 items-center justify-start">
+                <div className="flex  gap-2 items-center justify-start uppercase">
                 <button className="bg-green-400 px-4 py-1 rounded-full text-white uppercase" >login</button>
                 <NavLink to ="/register" className={'text-blue-600 underline'} >not registered ?</NavLink>
                 </div>
