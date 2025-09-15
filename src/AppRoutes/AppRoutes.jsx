@@ -6,7 +6,7 @@ import Home from "../components/home/Home"
 import PublicRoutes from "../PublicRoutes/PublicRoutes"
 import Products from "../components/Products/Products"
 import PageNotFound from "../components/PageNotFound/PageNotFound"
-import About from "../components/about/About"
+import About from "../components/About/About"
 
 const AppRoutes = () =>{
     return(
