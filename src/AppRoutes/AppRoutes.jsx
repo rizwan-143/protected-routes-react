@@ -4,9 +4,9 @@ import ProtectedRoutes from "../ProtectedRoutes/ProtectedRoutes"
 import Login from "../components/login/Login"
 import Home from "../components/home/Home"
 import PublicRoutes from "../PublicRoutes/PublicRoutes"
-import About from "../components/about/About"
 import Products from "../components/Products/Products"
 import PageNotFound from "../components/PageNotFound/PageNotFound"
+import About from "../components/about/About"
 
 const AppRoutes = () =>{
     return(
